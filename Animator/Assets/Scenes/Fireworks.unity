@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.003127821, g: 0.0061466563, b: 0.014172211, a: 1}
+  m_IndirectSpecularColor: {r: 0.0031405292, g: 0.0061706104, b: 0.014241753, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -700,13 +700,42 @@ MonoBehaviour:
     _pFireworks:
     - {fileID: 19800010, guid: c5b893a31acbf5848a22a5ca94900b19, type: 3}
     - {fileID: 19800006, guid: 98b0804d6943e6044b75c50f7c50ed7f, type: 3}
-  - _fStartTime: 16
+  - _fStartTime: 17.5
     _pFireworks:
     - {fileID: 2425361428160306462, guid: 8c9d3e13083c52c48baf3df30c72f1ef, type: 3}
-  - _fStartTime: 80
+  - _fStartTime: 48
     _pFireworks:
     - {fileID: 19800002, guid: bc79228b0ab3b5043bc858c182cf001b, type: 3}
     - {fileID: 19800006, guid: 98b0804d6943e6044b75c50f7c50ed7f, type: 3}
+  - _fStartTime: 71
+    _pFireworks:
+    - {fileID: 198273574256830164, guid: a60ae2d1790723c44a051807d3b2181d, type: 3}
+    - {fileID: 1115374582770933326, guid: 5577c618644ea114cbd4681ae7148396, type: 3}
+  - _fStartTime: 87.5
+    _pFireworks:
+    - {fileID: 2425361428160306462, guid: 8c9d3e13083c52c48baf3df30c72f1ef, type: 3}
+    - {fileID: 1115374582770933326, guid: 5577c618644ea114cbd4681ae7148396, type: 3}
+  - _fStartTime: 167
+    _pFireworks:
+    - {fileID: 1115374582770933326, guid: 5577c618644ea114cbd4681ae7148396, type: 3}
+    - {fileID: 19833426, guid: 3baf654de2c48c3428f1055dc88d4398, type: 3}
+  - _fStartTime: 176
+    _pFireworks:
+    - {fileID: 5373983805738494816, guid: 7b75741960fbf7b49bf11f0f024a1409, type: 3}
+    - {fileID: 1115374582770933326, guid: 5577c618644ea114cbd4681ae7148396, type: 3}
+  - _fStartTime: 184.8
+    _pFireworks:
+    - {fileID: 198273574256830164, guid: 5e638b3fedab2ba4490bbd2e33f37313, type: 3}
+    - {fileID: 198273574256830164, guid: ccd2a371867bee2409c107eb93d5c79d, type: 3}
+    - {fileID: 198932185141590714, guid: 04011e8b380dbf8448abdf7d4b7faadd, type: 3}
+    - {fileID: 2425361428160306462, guid: 94f5f2e71ce30a943ace1e3309d82cd5, type: 3}
+    - {fileID: 2425361428160306462, guid: 44641f67e80db414ab5f71fc92def2bc, type: 3}
+  - _fStartTime: 186.8
+    _pFireworks:
+    - {fileID: 19866698, guid: b0b429f8e55f4fc4094a9508120a1a38, type: 3}
+  - _fStartTime: 270
+    _pFireworks:
+    - {fileID: 5373983805738494816, guid: 7b75741960fbf7b49bf11f0f024a1409, type: 3}
 --- !u!1 &582724197
 GameObject:
   m_ObjectHideFlags: 0
@@ -2558,6 +2587,7 @@ GameObject:
   - component: {fileID: 1746509037}
   - component: {fileID: 1746509036}
   - component: {fileID: 1746509035}
+  - component: {fileID: 1746509040}
   m_Layer: 0
   m_Name: Camera
   m_TagString: Untagged
@@ -2587,7 +2617,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1746509033}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: da1b7dd3436f7b34e847475aa2448da7, type: 3}
   m_Name: 
@@ -2705,6 +2735,23 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
+--- !u!114 &1746509040
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1746509033}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8d79501ef76b85489188da9117a5fca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  delay: 71
+  delay2: 88
+  targetRotation: {x: -45, y: -23.196, z: 0.002}
+  originalRotation: {x: -11.955, y: -23.196, z: 0.002}
+  isRotating: 0
 --- !u!1 &1901449078
 GameObject:
   m_ObjectHideFlags: 0
